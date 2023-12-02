@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+}
+
+.auction-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.auction-item {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auction-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.bidding-section {
+    max-width: 400px;
+    background-color: #2c3e50; /* Darker blue background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bid-display {
+    margin-bottom: 15px;
+}
+
+.bid-display span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bid-box {
+    display: flex;
+    gap: 10px;
+}
+
+#bid-amount {
+    width: 100px;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#decrease-bid, #increase-bid {
+    background-color: #2ecc71; /* Green background color for increase/decrease buttons */
+}
+
+#place-bid {
+    background-color: #e74c3c; /* Red background color for place bid button */
+}
